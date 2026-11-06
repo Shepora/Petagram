@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_favoritas"
+        android:title="Favoritas"
+        app:actionLayout="@layout/action_star"
+        app:showAsAction="always" />
+
+    <!-- Los 3 puntitos (overflow) -->
+    <item
+        android:id="@+id/action_acerca"
+        android:title="Acerca de"
+        app:showAsAction="never" />
+</menu>
